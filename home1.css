@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Roboto Slab", serif !important;
+}
+
+.mt {
+    margin-top: 56px;
+}
+
+.bloco {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    padding: 10px;
+}
+
+.blocob {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    padding: 10px;
+    background-color: black;
+}
+
+.blococ {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    padding: 10px;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.perfil {
+    width: 30%;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links2 {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    padding: 10px;
+    width: 50px;
+}
+
+
+.wrapper {
+    height: 10px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: rainbow 10s ease infinite;
+    -z-animation: rainbow 10s ease infinite;
+    -o-animation: rainbow 10s ease infinite;
+    animation: rainbow 10s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-moz-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@-o-keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 82%
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 70px;
+    height: 50px;
+    background-color: #15b4ac;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #1de8de;
+}
+
+.btn::after {
+    content: "voltar";
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    
+    transition: margin-top 250ms;
+}
+
+.btn:hover::after {
+    margin-top: -8px;
+}
